@@ -1,6 +1,8 @@
 #!groovy
 
-agent {
-    dockerfile {
-    }
+pipeline {
+    agent {
+      dockerfile {
+      }
+  }
 }
